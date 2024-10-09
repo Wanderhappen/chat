@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-dev": "nodemon --inspect dist/app.js",
+    "start-dev": "nodemon --inspect src/dist/app.js",
     "watch-dev": "tsc -w",
     "build": "tsc",
-    "start": "node dist/app.js",
+    "start": "node src/dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
