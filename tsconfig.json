@@ -4,9 +4,9 @@
 		"module": "commonjs",
 		"allowJs": true,
 		"sourceMap": true,
-		"outDir": "./src/dist",
+		"outDir": "./dist",
 		"rootDir": "./src",
 		"esModuleInterop": true
 	},
-	"exclude": ["dist"]
+//	"exclude": ["dist"]
 }
