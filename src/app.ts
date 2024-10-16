@@ -17,7 +17,7 @@ const io = new Server(server, {
 // Миддлварь для парсинга JSON в теле запросов и куки
 app.use(
   cors({
-    origin: 'https://global-chat-front.onrender.com/', // Укажите URL вашего клиентского приложения
+    origin: 'https://global-chat-front.onrender.com', // Укажите URL вашего клиентского приложения
     methods: ['GET', 'POST'],
     credentials: true, // Разрешить использование cookie
   })
