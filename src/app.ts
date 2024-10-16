@@ -103,8 +103,8 @@ app.post('/register', (req, res) => {
   res.cookie('token', newToken, {
     maxAge: 30 * 24 * 60 * 60 * 1000, // 30 дней
     httpOnly: true, // Куки доступны только через HTTP (нельзя получить через JS)
-    secure: false, // Включите true, когда будете использовать HTTPS
-    sameSite: 'lax',
+    secure: true, // Включите true, когда будете использовать HTTPS
+    sameSite: 'none',
   })
 
   // Возвращаем данные нового пользователя и токен
