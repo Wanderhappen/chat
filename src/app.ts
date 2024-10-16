@@ -17,7 +17,7 @@ const io = new Server(server, {
 // Миддлварь для парсинга JSON в теле запросов и куки
 app.use(
   cors({
-    origin: 'https://wanderhappen.github.io/', // Укажите URL вашего клиентского приложения
+    origin: 'https://wanderhappen.github.io', // Укажите URL вашего клиентского приложения
     methods: ['GET', 'POST'],
     credentials: true, // Разрешить использование cookie
   })
